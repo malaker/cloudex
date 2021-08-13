@@ -24,7 +24,6 @@ namespace Microsoft.eShopWeb.ApplicationCore.Services
         private readonly HttpClient _client;
         private readonly IAppLogger<OrderService> _logger;
         private readonly OrderSettings _orderSetting;
-        //private string serviceUri = "https://CloudEx-eshop.servicebus.windows.net/orders/messages";
 
         public OrderService(IAsyncRepository<Basket> basketRepository,
             IAsyncRepository<CatalogItem> itemRepository,
